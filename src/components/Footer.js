@@ -9,7 +9,7 @@ const Footer = () => {
       <div style={styles.container}>
         {/* Text */}
         <p style={styles.text}>
-          &copy; {currentYear} <span style={styles.brand}>GyanManthan Gurukul</span>. All rights reserved.
+          &copy; {currentYear} <span style={styles.brand}>Future Lines</span>. All rights reserved.
         </p>
       </div>
     </footer>
