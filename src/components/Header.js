@@ -41,12 +41,12 @@ const Header = () => {
       icon: "https://img.icons8.com/?size=100&id=FltuUxRGNDy9&format=png&color=000000",
     },
     {
-      label: "Games",
+      label: "Courses",
       href: "/gamedashboard",
       icon: "https://img.icons8.com/?size=100&id=CwCwicwWMjyU&format=png&color=000000",
     },
     {
-      label: "Courses",
+      label: "Website development",
       href: "/#learn-section",
       icon: "https://img.icons8.com/?size=100&id=6iYcq3SxsRPh&format=png&color=000000",
     },
