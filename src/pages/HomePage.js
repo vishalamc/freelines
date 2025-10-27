@@ -63,13 +63,14 @@ export default function Home() {
           <div className="card" key={i}>
             <img src={course.img} alt={course.title} className="card-img" />
             <h2>{course.title}</h2>
-            <Link to={course.link} className="learn-btn">Online Materials</Link>
+            <Link to={course.link} className="learn-btn">Reading Materials</Link>
           </div>
         ))}
       </div>
     </div>
   );
 }
+
 
 
 
