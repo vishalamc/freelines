@@ -41,8 +41,8 @@ const Header = () => {
       icon: "https://img.icons8.com/?size=100&id=FltuUxRGNDy9&format=png&color=000000",
     },
     {
-      label: "Courses",
-      href: "/ComingSoon",
+      label: "Contact us",
+      href: "/contactcard",
       icon: "https://img.icons8.com/?size=100&id=CwCwicwWMjyU&format=png&color=000000",
     },
     {
@@ -239,4 +239,5 @@ const Header = () => {
 };
 
 export default Header;
+
 
