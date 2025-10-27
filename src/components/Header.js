@@ -42,12 +42,12 @@ const Header = () => {
     },
     {
       label: "Courses",
-      href: "/gamedashboard",
+      href: "/ComingSoon",
       icon: "https://img.icons8.com/?size=100&id=CwCwicwWMjyU&format=png&color=000000",
     },
     {
       label: "Website development",
-      href: "/#learn-section",
+      href: "/ComingSoon",
       icon: "https://img.icons8.com/?size=100&id=6iYcq3SxsRPh&format=png&color=000000",
     },
     
@@ -239,3 +239,4 @@ const Header = () => {
 };
 
 export default Header;
+
