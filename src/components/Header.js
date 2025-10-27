@@ -42,7 +42,7 @@ const Header = () => {
     },
     {
       label: "Contact us",
-      href: "/contactcard",
+      href: "/contactus",
       icon: "https://img.icons8.com/?size=100&id=CwCwicwWMjyU&format=png&color=000000",
     },
     {
@@ -239,5 +239,4 @@ const Header = () => {
 };
 
 export default Header;
-
 
