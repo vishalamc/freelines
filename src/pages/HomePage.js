@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import { FcBullish } from "react-icons/fc";
 const learnCourses = [
-  { icon: <FcBullish className="course-icon" />, title: "9th Class", desc: "Smart Teaching • Regular Tests •", link: "/learnc" },
-  { icon: <FcBullish className="course-icon" />, title: "10th Class", desc: "Learn object-oriented programming with C++.", link: "/ComingSoon" },
-  { icon: <FcBullish className="course-icon" />, title: "BCA/MCA", desc: "Build robust and scalable applications in Java.", link: "/ComingSoon" },
-  { icon: <FcBullish className="course-icon" />, title: "BTech/MTech", desc: "Learn Python for AI, data science, and more.", link: "/ComingSoon" }
+  { icon: <FcBullish className="course-icon" />, title: "9th Class", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
+  { icon: <FcBullish className="course-icon" />, title: "10th Class", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
+  { icon: <FcBullish className="course-icon" />, title: "BCA/MCA", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
+  { icon: <FcBullish className="course-icon" />, title: "BTech/MTech", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" }
 ];
 
 const practiceCourses = [
   { title: "Math", img: "/maths.jpg", link: "/ComingSoon" },
-  { title: "Science", img: "/gamification.jpg", link: "/gamedashboard" },
-  { title: "Computer Science", img: "/learncomputer.jpg", link: "/videolectures" },
+  { title: "Science", img: "/gamification.jpg", link: "/ComingSoon" },
+  { title: "Computer Science", img: "/learncomputer.jpg", link: "/ComingSoon" },
   { title: "Website Development", img: "/lang.jpg", link: "/ComingSoon" }
 ];
 
@@ -20,12 +20,17 @@ export default function Home() {
   return (
     <div className="homepage">
       <h1 className="home-title">Future Lines</h1>
-      <p className="tagline">Join Future Lines — Your Path to Success!
+<p className="tagline">
+    <strong>Join Future Lines — Your Path to Success!</strong>
+    <br /><br />
     कक्षा 9वीं और 10वीं (विज्ञान और गणित) के लिए विशेष कोचिंग कक्षाएँ
+    <br />
     कंप्यूटर कोर्स — 6 माह / 1 वर्ष के डिप्लोमा प्रोग्राम
+    <br />
     BCA, MCA, B.Tech, M.Tech छात्रों के लिए कोचिंग कक्षाएँ
+    <br />
     अपनी खुद की वेबसाइट यहाँ बनाएं!
-    </p>
+  </p>
 
      {/* Showcase Image */}
       <div className="showcase-container">
@@ -65,6 +70,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
