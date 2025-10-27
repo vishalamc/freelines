@@ -1,14 +1,13 @@
-import React from "react";
-import ReactGA from "react-ga4";
-import { BrowserRouter as Router, Navigate, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header"; // Make sure file name matches this import
 import Footer from "./components/Footer";
 import ContactCard from "./pages/ContactCard";
+import ContactUs from "./pages/ContactUs";
 import AboutPage from "./pages/About-Project";
 import ScrollToTop from "./components/ScrollToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
-import ImageCard from "./components/ImageCard";
+
 
 import HomePage from "./pages/HomePage";
 import Videolectures from "./pages/Videolectures";
@@ -36,6 +35,7 @@ function App() {
         <Route path="/videolectures" element={<Videolectures />} />
         <Route path="/ComingSoon" element={<ComingSoon />} />
         <Route path="/myportfolio" element={<Myportfolio />} />
+         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/gamedashboard" element={<Gamedashboard />} />
 
         <Route path="/contactcard" element={<ContactCard />} />
