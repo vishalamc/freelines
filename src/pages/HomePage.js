@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="homepage">
       <h1 className="home-title">Future Lines</h1>
-      <p className="tagline">Explore, Understand, Evolve — Where tradition meets modern learning.</p>
+      <p className="tagline">Join Future Lines — Your Path to Success!</p>
 
      {/* Showcase Image */}
       <div className="showcase-container">
@@ -60,5 +60,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
