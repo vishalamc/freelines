@@ -22,7 +22,7 @@ export default function Home() {
       <h1 className="home-title">Future Lines</h1>
 <div className="homepage">
   <p className="tagline">
-    <strong>Join Future Lines — Your Path to Success!</strong>
+    <h2>Join Future Lines — Your Path to Success!</h2>
     </p>
 </div>
 
@@ -65,6 +65,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
