@@ -14,7 +14,6 @@ const practiceCourses = [
   { title: "BCA", img: "/gamification.jpg", link: "/ComingSoon" },
   { title: "MCA", img: "/learncomputer.jpg", link: "/ComingSoon" },
   { title: "BTech(CSE)", img: "/learncomputer.jpg", link: "/ComingSoon" },
-  { title: "Website Development", img: "/lang.jpg", link: "/ComingSoon" }
 ];
 
 export default function Home() {
@@ -66,5 +65,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
