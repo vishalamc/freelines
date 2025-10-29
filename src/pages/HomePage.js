@@ -20,17 +20,28 @@ export default function Home() {
   return (
     <div className="homepage">
       <h1 className="home-title">Future Lines</h1>
-<p className="tagline">
+<div className="homepage">
+  <h1 className="home-title">🎯 FUTURE LINES</h1>
+
+  <p className="tagline">
+    Station Road, Kasba
+    <br /><br />
     <strong>Join Future Lines — Your Path to Success!</strong>
     <br /><br />
-    कक्षा 9वीं और 10वीं (विज्ञान और गणित) के लिए विशेष कोचिंग कक्षाएँ
+    💻 Computer Courses – 6 Months / 1 Year Diploma Programs and More
     <br />
-    कंप्यूटर कोर्स — 6 माह / 1 वर्ष के डिप्लोमा प्रोग्राम
+    🎓 Coaching Classes for BCA | MCA | B.Tech(CSE) Students
     <br />
-    BCA, MCA, B.Tech, M.Tech छात्रों के लिए कोचिंग कक्षाएँ
+    🌐 Create Your Own Website Here (Website Design + Hosting + Training)
+    <br /><br />
+    👨‍🏫 <strong>Director:</strong> Vishal Sir
     <br />
-    अपनी खुद की वेबसाइट यहाँ बनाएं!
+    Assistant Professor, 15+ Years of Teaching Experience from Lovely Professional University, Punjab
+    <br /><br />
+    📞 <strong>Call:</strong> 7808625336
   </p>
+</div>
+
 
      {/* Showcase Image */}
       <div className="showcase-container">
@@ -70,3 +81,4 @@ export default function Home() {
     </div>
   );
 }
+
