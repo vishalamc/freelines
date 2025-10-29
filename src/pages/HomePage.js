@@ -32,25 +32,25 @@ export default function Home() {
 
       {/* Top Buttons */}
       <div className="top-buttons">
-        <a href="#learn-section" className="top-btn learn-top">Details</a>
-        <a href="#practice-section" className="top-btn practice-top">Learn</a>
+        <a href="#learn-section" className="top-btn learn-top">Learn</a>
+        <a href="#practice-section" className="top-btn practice-top">Practice</a>
       </div>
 
       {/* Learn Section */}
-      <h2 id="learn-section" className="section-title">Join</h2>
+      <h2 id="learn-section" className="sectin-title">Join</h2>
       <div className="cards-container">
         {learnCourses.map((course, i) => (
           <div className="card" key={i}>
             <div className="icon">{course.icon}</div>
             <h2>{course.title}</h2>
             <p>{course.desc}</p>
-            <Link to={course.link} className="learn-btn">Learn</Link>
+            <Link to={course.link} className="learn-btn">Details</Link>
           </div>
         ))}
       </div>
 
       {/* Practice Section */}
-      <h2 id="practice-section" className="section-title">Practice</h2>
+      <h2 id="practice-section" className="section-title">Learn</h2>
       <div className="cards-container">
         {practiceCourses.map((course, i) => (
           <div className="card" key={i}>
@@ -63,4 +63,3 @@ export default function Home() {
     </div>
   );
 }
-
