@@ -3,16 +3,17 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import { FcBullish } from "react-icons/fc";
 const learnCourses = [
-  { icon: <FcBullish className="course-icon" />, title: "9th Class", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
-  { icon: <FcBullish className="course-icon" />, title: "10th Class", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
-  { icon: <FcBullish className="course-icon" />, title: "BCA/MCA", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
-  { icon: <FcBullish className="course-icon" />, title: "BTech/MTech", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" }
+  { icon: <FcBullish className="course-icon" />, title: "Computer Courses", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
+  { icon: <FcBullish className="course-icon" />, title: "BCA", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
+  { icon: <FcBullish className="course-icon" />, title: "MCA", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
+  { icon: <FcBullish className="course-icon" />, title: "BTech(CSE)", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" }
 ];
 
 const practiceCourses = [
-  { title: "Math", img: "/maths.jpg", link: "/ComingSoon" },
-  { title: "Science", img: "/gamification.jpg", link: "/ComingSoon" },
-  { title: "Computer Science", img: "/learncomputer.jpg", link: "/ComingSoon" },
+  { title: "Computer Courses", img: "/maths.jpg", link: "/ComingSoon" },
+  { title: "BCA", img: "/gamification.jpg", link: "/ComingSoon" },
+  { title: "MCA", img: "/learncomputer.jpg", link: "/ComingSoon" },
+  { title: "BTech(CSE)", img: "/learncomputer.jpg", link: "/ComingSoon" },
   { title: "Website Development", img: "/lang.jpg", link: "/ComingSoon" }
 ];
 
@@ -21,25 +22,9 @@ export default function Home() {
     <div className="homepage">
       <h1 className="home-title">Future Lines</h1>
 <div className="homepage">
-  <h1 className="home-title">🎯 FUTURE LINES</h1>
-
   <p className="tagline">
-    Station Road, Kasba
-    <br /><br />
     <strong>Join Future Lines — Your Path to Success!</strong>
-    <br /><br />
-    💻 Computer Courses – 6 Months / 1 Year Diploma Programs and More
-    <br />
-    🎓 Coaching Classes for BCA | MCA | B.Tech(CSE) Students
-    <br />
-    🌐 Create Your Own Website Here (Website Design + Hosting + Training)
-    <br /><br />
-    👨‍🏫 <strong>Director:</strong> Vishal Sir
-    <br />
-    Assistant Professor, 15+ Years of Teaching Experience from Lovely Professional University, Punjab
-    <br /><br />
-    📞 <strong>Call:</strong> 7808625336
-  </p>
+    </p>
 </div>
 
 
@@ -81,4 +66,5 @@ export default function Home() {
     </div>
   );
 }
+
 
