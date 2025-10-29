@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import { FcBullish } from "react-icons/fc";
+
 const learnCourses = [
   { icon: <FcBullish className="course-icon" />, title: "Computer Courses", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
   { icon: <FcBullish className="course-icon" />, title: "BCA", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
@@ -19,19 +20,16 @@ const practiceCourses = [
 export default function Home() {
   return (
     <div className="homepage">
+      {/* Header Section */}
       <h1 className="home-title">Future Lines</h1>
-<div className="homepage">
-  <p className="tagline">
-    <h2>Join Future Lines — Your Path to Success!</h2>
-    </p>
-</div>
+      <h2 className="subtitle">Join Future Lines — Your Path to Success!</h2>
+      <p className="admission-text animated-admission">🎯 <strong>Registration Open — Limited Seats!</strong></p>
 
-
-     {/* Showcase Image */}
+      {/* Showcase Image */}
       <div className="showcase-container">
         <img src="/showcase.png" alt="Showcase" className="showcase-img" />
       </div>
-  
+
       {/* Top Buttons */}
       <div className="top-buttons">
         <a href="#learn-section" className="top-btn learn-top">Learn</a>
@@ -65,7 +63,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
