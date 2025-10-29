@@ -32,8 +32,8 @@ export default function Home() {
 
       {/* Top Buttons */}
       <div className="top-buttons">
-        <a href="#learn-section" className="top-btn learn-top">Learn</a>
-        <a href="#practice-section" className="top-btn practice-top">Practice</a>
+        <a href="#learn-section" className="top-btn learn-top">Details</a>
+        <a href="#practice-section" className="top-btn practice-top">Learn</a>
       </div>
 
       {/* Learn Section */}
@@ -63,3 +63,4 @@ export default function Home() {
     </div>
   );
 }
+
