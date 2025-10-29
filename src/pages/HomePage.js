@@ -11,10 +11,10 @@ const learnCourses = [
 ];
 
 const practiceCourses = [
-  { title: "Computer Courses", img: "/maths.jpg", link: "/ComingSoon" },
-  { title: "BCA", img: "/gamification.jpg", link: "/ComingSoon" },
-  { title: "MCA", img: "/learncomputer.jpg", link: "/ComingSoon" },
-  { title: "BTech(CSE)", img: "/learncomputer.jpg", link: "/ComingSoon" },
+  { title: "Computer Courses", img: "/computer.png", link: "/ComingSoon" },
+  { title: "BCA", img: "/BCA.png", link: "/ComingSoon" },
+  { title: "MCA", img: "/MCA.png", link: "/ComingSoon" },
+  { title: "BTech(CSE)", img: "/btech.png", link: "/ComingSoon" },
 ];
 
 export default function Home() {
