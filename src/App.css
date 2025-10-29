@@ -25,7 +25,40 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* Animated Admission Text */
+.admission-text {
+  font-size: 1.3rem;
+  color: #fab1a0;
+  font-weight: bold;
+  margin: 15px 0 30px;
+  display: inline-block;
+}
 
+.animated-admission {
+  animation: glowText 2s ease-in-out infinite, slideIn 1s ease-out forwards;
+}
+
+@keyframes glowText {
+  0%, 100% {
+    text-shadow: 0 0 10px #ff7675, 0 0 20px #ff6b6b, 0 0 30px #ff4757;
+    color: hsl(71, 100%, 59%);
+  }
+  50% {
+    text-shadow: 0 0 20px #ffeaa7, 0 0 30px #fab1a0, 0 0 40px #ff7675;
+    color: #e84118;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .App-link {
   color: #61dafb;
 }
