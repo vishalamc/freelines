@@ -7,7 +7,6 @@ import AboutPage from "./pages/About-Project";
 import ScrollToTop from "./components/ScrollToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
 
-
 import HomePage from "./pages/HomePage";
 import Videolectures from "./pages/Videolectures";
 
@@ -15,7 +14,7 @@ import Videolectures from "./pages/Videolectures";
 import Towerofhanoi from "./pages/games/Towerofhanoi";
 import Computerbuilder from "./pages/games/Computerbuilder";
 import Codejumble from "./pages/games/Codejumble";
-// Course Pages
+// Computer Course Pages
 import ComputerCourse from "./pages/ComputerCourse";
 import ADCA from "./computer/Adca";
 import DCA from "./computer/Dca";
@@ -23,6 +22,12 @@ import BCC from "./computer/Bcc";
 import PGDCA from "./computer/Pgdca";
 import TALLY from "./computer/Tally";
 import CCC from "./computer/Ccc";
+// BCA Class Pages
+import BcaCourse from "./pages/BcaCourse";
+// MCA Class Pages
+import McaCourse from "./pages/McaCourse"
+// Btech Class Pages
+import BtechCourse from "./pages/BtechCourse"
 // Other pages
 import ComingSoon from "./pages/ComingSoon";
 import Gamedashboard from "./pages/Gamedashboard";
@@ -41,7 +46,11 @@ function App() {
         <Route path="/myportfolio" element={<Myportfolio />} />
          <Route path="/contactus" element={<ContactUs />} />
         <Route path="/gamedashboard" element={<Gamedashboard />} />
+       
         <Route path="/computercourse" element={<ComputerCourse />} />
+        <Route path="/bcacourse" element={<BcaCourse />} />
+        <Route path="/mcacourse" element={<McaCourse />} />
+        <Route path="/btechcourse" element={<BtechCourse />} />
 
         <Route path="/contactcard" element={<ContactCard />} />
         <Route path="/about-project" element={<AboutPage />} />
@@ -49,13 +58,14 @@ function App() {
         <Route path="/computerbuilder" element={<Computerbuilder />} />
         <Route path="/codejumble" element={<Codejumble />} />
       
-       {/* ✅ New ADCA Page Route */}
-          <Route path="/adca" element={<ADCA />} />
+       {/* ✅ Computer Course Page Route */}
+<Route path="/adca" element={<ADCA />} />
 <Route path="/dca" element={<DCA />} />
 <Route path="/bcc" element={<BCC />} />
 <Route path="/pgdca" element={<PGDCA />} />
 <Route path="/tally" element={<TALLY />} />
 <Route path="/ccc" element={<CCC />} />
+
       </Routes>
       <Footer />
   </ErrorBoundary>
