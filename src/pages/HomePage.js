@@ -4,7 +4,7 @@ import "../App.css";
 import { FcBullish } from "react-icons/fc";
 
 const learnCourses = [
-  { icon: <FcBullish className="course-icon" />, title: "Computer Courses", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
+  { icon: <FcBullish className="course-icon" />, title: "Computer Courses", desc: "Smart Teaching • Regular Tests", link: "/ComputerCourse" },
   { icon: <FcBullish className="course-icon" />, title: "BCA", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
   { icon: <FcBullish className="course-icon" />, title: "MCA", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" },
   { icon: <FcBullish className="course-icon" />, title: "BTech(CSE)", desc: "Smart Teaching • Regular Tests", link: "/ComingSoon" }
@@ -37,7 +37,7 @@ export default function Home() {
       </div>
 
       {/* Learn Section */}
-      <h2 id="learn-section" className="sectin-title">Join</h2>
+      <h2 id="learn-section" className="sectin-title">Course Details</h2>
       <div className="cards-container">
         {learnCourses.map((course, i) => (
           <div className="card" key={i}>
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
 
       {/* Practice Section */}
-      <h2 id="practice-section" className="section-title">Learn</h2>
+      <h2 id="practice-section" className="section-title">Study Materials</h2>
       <div className="cards-container">
         {practiceCourses.map((course, i) => (
           <div className="card" key={i}>
