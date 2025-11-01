@@ -145,6 +145,8 @@ export default function CourseDashboard() {
       <div className="header-section">
         <MenuBookIcon className="header-icon" />
         <h1>Computer Courses</h1>
+        <h2>सभी प्रमाणपत्र भारत सरकार द्वारा मान्यता प्राप्त संस्थान
+"Drishti Computer Education" द्वारा जारी किए जाएंगे।</h2>
         <p>हर कोर्स की पूरी जानकारी प्राप्त करें।</p>
       </div>
 
