@@ -6,7 +6,7 @@ const ContactCard = () => {
 
   return (
     <section className="contact-section">
-      <h2>MCA Tuition Class</h2>
+      <h2>MCA Tution Class</h2>
 
       <div className="contact-card">
         <div className="course-description" lang="hi">
@@ -148,3 +148,4 @@ const ContactCard = () => {
 };
 
 export default ContactCard;
+
