@@ -45,7 +45,7 @@ export default function Home() {
       </div>
 
       {/* Academy Section */}
-      <h2 id="practice-section" className="section-title">Courses and Classes</h2>
+      <h2 id="practice-section" className="section-title">Join any course or class for just ₹500 per month.</h2>
       <div className="cards-container">
         {practiceCourses.map((course, i) => (
           <div className="card" key={i}>
@@ -70,3 +70,4 @@ export default function Home() {
     </div>
   );
 }
+
