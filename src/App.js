@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header"; // Make sure file name matches this import
 import Footer from "./components/Footer";
 import ContactCard from "./pages/ContactCard";
+import Authorizations from "./pages/Authorizations";
 import ContactUs from "./pages/ContactUs";
 import AboutPage from "./pages/About-Project";
 import ScrollToTop from "./components/ScrollToTop";
@@ -46,6 +47,7 @@ function App() {
         <Route path="/myportfolio" element={<Myportfolio />} />
          <Route path="/contactus" element={<ContactUs />} />
         <Route path="/gamedashboard" element={<Gamedashboard />} />
+        <Route path="/authorizations" element={<Authorizations />} />
        
         <Route path="/computercourse" element={<ComputerCourse />} />
         <Route path="/bcacourse" element={<BcaCourse />} />
