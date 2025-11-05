@@ -5,7 +5,7 @@ const Authorizations = () => {
   const certifications = [
     {
       title: "Franchise Partner Licence",
-      image: "/franchise.png",
+      image: "/Franchise.png",
     },
     {
       title: "Identity Card",
@@ -33,4 +33,5 @@ const Authorizations = () => {
 };
 
 export default Authorizations;
+
 
