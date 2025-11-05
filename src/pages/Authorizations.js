@@ -4,10 +4,6 @@ import "./Authorizations.css";
 const Authorizations = () => {
   const certifications = [
     {
-      title: "Drishti Computer Education",
-      image: "/drishtii.png",
-    },
-    {
       title: "Franchise Partner Licence",
       image: "/franchise.png",
     },
@@ -37,3 +33,4 @@ const Authorizations = () => {
 };
 
 export default Authorizations;
+
