@@ -46,8 +46,8 @@ const Header = () => {
       icon: "https://img.icons8.com/?size=100&id=CwCwicwWMjyU&format=png&color=000000",
     },
     {
-      label: "Website development",
-      href: "/ComingSoon",
+      label: "Authorizations & Certifications",
+      href: "/authorizations",
       icon: "https://img.icons8.com/?size=100&id=6iYcq3SxsRPh&format=png&color=000000",
     },
     
