@@ -24,7 +24,7 @@ export default function Home() {
       <h1 className="home-title">Future Lines</h1>
       <h2 className="subtitle">Join Future Lines — Your Path to Success!</h2>
           {/* Registration Button */}
-       <h2 id="practice-section" className="section-title">Enrollment Fees ₹300 Rs.Only</h2>
+       <h2 id="practice-section" className="section-title">Enrollment Fees ₹300 Only</h2>
       <a
         href="https://forms.gle/iPvEwqVQECJpjkgk7"
         target="_blank"
@@ -71,3 +71,4 @@ export default function Home() {
     </div>
   );
 }
+
