@@ -5,9 +5,11 @@ import { FcBullish } from "react-icons/fc";
 
 const practiceCourses = [
   { title: "Computer Courses", img: "/computer.png", link: "/computercourse" },
-  { title: "BCA Class", img: "/BCA.png", link: "/bcacourse" },
-  { title: "MCA Class", img: "/MCA.png", link: "/mcacourse" },
-  { title: "BTech(CSE) Class", img: "/btech.png", link: "/btechcourse" },
+  { title: "C", img: "/BCA.png", link: "/bcacourse" },
+  { title: "C++", img: "/MCA.png", link: "/mcacourse" },
+  { title: "Java", img: "/btech.png", link: "/btechcourse" },
+   { title: "Python", img: "/btech.png", link: "/btechcourse" },
+   { title: "Full Stack development", img: "/btech.png", link: "/btechcourse" },
 ];
 
 const technologySolutions = [
@@ -71,4 +73,5 @@ export default function Home() {
     </div>
   );
 }
+
 
