@@ -37,6 +37,11 @@ export default function CourseDashboard() {
     description: 'CERTIFICATE COURSE IN COMPUTER (3 Months)',
     path: '/ccc',
   },
+    {
+    title: 'CCT',
+    description: 'Certificate in Computer Typing (3 Months)',
+    path: '/typing1',
+  },
   {
     title: 'BCCA',
     description: 'BASIC COMPUTER COURSE ADVANCE (6 Months)',
@@ -268,3 +273,4 @@ export default function CourseDashboard() {
     </div>
   );
 }
+
