@@ -23,6 +23,7 @@ import BCC from "./computer/Bcc";
 import PGDCA from "./computer/Pgdca";
 import TALLY from "./computer/Tally";
 import CCC from "./computer/Ccc";
+import CCT from "./computer/Typing1";
 // BCA Class Pages
 import BcaCourse from "./pages/BcaCourse";
 // MCA Class Pages
@@ -67,7 +68,7 @@ function App() {
 <Route path="/pgdca" element={<PGDCA />} />
 <Route path="/tally" element={<TALLY />} />
 <Route path="/ccc" element={<CCC />} />
-
+<Route path="/typing1" element={<CCT />} />
       </Routes>
       <Footer />
   </ErrorBoundary>
