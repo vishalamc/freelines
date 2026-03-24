@@ -61,7 +61,7 @@ export default function Home() {
       </div>
 
       {/* Software Solutions Section */}
-      <h2 id="learn-section" className="section-title">Software Solutions</h2>
+      <h2 id="learn-section" className="section-title">Class 6 To Class 10th </h2>
       <div className="cards-container">
         {technologySolutions.map((course, i) => (
           <div className="card" key={i}>
