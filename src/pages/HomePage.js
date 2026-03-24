@@ -14,8 +14,8 @@ const practiceCourses = [
 ];
 
 const technologySolutions = [
-  { title: "Physics", img: "/website.jpg", link: "/comingsoon" },
-  { title: "Chemistry", img: "/mobile.jpg", link: "/ComingSoon" },
+  { title: "Physics", img: "/account.jpg", link: "/comingsoon" },
+  { title: "Chemistry", img: "account.jpg", link: "/ComingSoon" },
   { title: "Math", img: "/account.jpg", link: "/ComingSoon" }
 
 ];
