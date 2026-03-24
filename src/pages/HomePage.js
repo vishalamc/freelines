@@ -9,14 +9,15 @@ const practiceCourses = [
   { title: "C++", img: "/MCA.png", link: "#" },
   { title: "Java", img: "/btech.png", link: "#" },
    { title: "Python", img: "/btech.png", link: "#" },
-   { title: "Physics", img: "/btech.png", link: "#" },
+   { title: "Website or Web App", img: "/btech.png", link: "#" },
+   { title: "Mobile App", img: "/mobile.jpg", link: "#" }
 ];
 
 const technologySolutions = [
-  { title: "Website or Web App", img: "/website.jpg", link: "/comingsoon" },
-  { title: "Mobile App", img: "/mobile.jpg", link: "/ComingSoon" },
-  { title: "Accounting Software", img: "/account.jpg", link: "/ComingSoon" },
-  { title: "Stock Management", img: "/stock.jpg", link: "/ComingSoon" },
+  { title: "Physics", img: "/website.jpg", link: "/comingsoon" },
+  { title: "Chemistry", img: "/mobile.jpg", link: "/ComingSoon" },
+  { title: "Math", img: "/account.jpg", link: "/ComingSoon" }
+
 ];
 
 export default function Home() {
