@@ -9,7 +9,7 @@ const practiceCourses = [
   { title: "C++", img: "/MCA.png", link: "#" },
   { title: "Java", img: "/btech.png", link: "#" },
    { title: "Python", img: "/btech.png", link: "#" },
-   { title: "Full Stack development", img: "/btech.png", link: "#" },
+   { title: "Physics", img: "/btech.png", link: "#" },
 ];
 
 const technologySolutions = [
