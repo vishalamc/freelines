@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* Navigation Buttons */}
       <div className="top-buttons">
-        <a href="#learn-section" className="nav-link-btn">Software Solutions</a>
+        <a href="#learn-section" className="nav-link-btn">Class 6 to Class 10</a>
         <a href="#practice-section" className="nav-link-btn">Courses and Classes</a>
       </div>
 
