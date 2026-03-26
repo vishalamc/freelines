@@ -14,7 +14,7 @@ const ComputerClasses = [
   { title: "BCC", img: "/computer.png", link: "/bcc" },
   { title: "Tally", img: "/computer.png", link: "/tally" },
   { title: "CCC", img: "/computer.png", link: "/ccc" },
-  { title: "CCT", img: "/computer.png", link: "/cct" },
+  { title: "CCT", img: "/computer.png", link: "/typing1" },
 
 ];
 
