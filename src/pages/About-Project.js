@@ -7,20 +7,12 @@ export default function AboutPage() {
       <div className="about-container">
 
         {/* Title */}
-        <h1 className="about-title">GyanManthan Gurukul</h1>
+        <h1 className="about-title">Future Lines</h1>
 
         {/* Description */}
-        <p className="about-text">
-          it is an open-source platform created to make learning programming interactive, engaging, and fun.  
-          Initially developed by <span className="highlight">Vishal Sir</span> and enhanced by <span className="highlight">Kinsu</span>.  
-          The platform emphasizes hands-on practice, interactive exercises, and an enjoyable learning experience for students.
-        </p>
-
+    
         {/* Made By */}
-        <p className="about-madeby">
-          👩‍💻 Made by <span className="highlight">Kinsu (@pykinsu)</span><br />
-          <span className="small-text"> Learning And Building Projects 🙂</span>
-        </p>
+      
 
         {/* Buttons */}
         <div className="about-buttons">
@@ -41,8 +33,8 @@ export default function AboutPage() {
         {/* Support Section */}
         <div className="about-support">
           <h2><Heart size={20}/> Support This Project</h2>
-          <p>Love GyanManthan Gurukul? Help keep it free and growing! You can support the project by sharing or contributing!</p>
-          <a href="https://github.com/pykinsu" target="_blank" rel="noreferrer" className="btn-pink">
+          <p>Love Future Lines? Help keep it free and growing! You can support the project by sharing or contributing!</p>
+          <a href="https://github.com/vishalamc" target="_blank" rel="noreferrer" className="btn-pink">
             Contribute on GitHub
           </a>
         </div>
