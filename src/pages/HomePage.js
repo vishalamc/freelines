@@ -3,17 +3,35 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import { FcBullish } from "react-icons/fc";
 
-const practiceCourses = [
+
+
+const ComputerClasses = [
+   
   { title: "Computer Courses", img: "/computer.png", link: "/computercourse" },
-  { title: "C", img: "/BCA.png", link: "#" },
+  { title: "ADCA", img: "/computer.png", link: "/adca" },
+  { title: "PGDCA", img: "/computer.png", link: "/pgdca" },
+  { title: "DCA", img: "/computer.png", link: "/dca" },
+  { title: "BCC", img: "/computer.png", link: "/bcc" },
+  { title: "Tally", img: "/computer.png", link: "/tally" },
+  { title: "CCC", img: "/computer.png", link: "/ccc" },
+  { title: "CCT", img: "/computer.png", link: "/cct" },
+
+];
+
+const programmingCourses = [
+
+  { title: "C", img: "/BCA.png", link: "/videolectures" },
   { title: "C++", img: "/MCA.png", link: "#" },
   { title: "Java", img: "/btech.png", link: "#" },
    { title: "Python", img: "/btech.png", link: "#" },
+   { title: "Vb.Net", img: "/btech.png", link: "#" },
+   { title: "PHP", img: "/btech.png", link: "#" },
    { title: "Website or Web App", img: "/website.jpg", link: "#" },
    { title: "Mobile App", img: "/mobile.jpg", link: "#" }
 ];
 
-const technologySolutions = [
+const schoolClasses = [
+   
   { title: "Physics", img: "/account.jpg", link: "/comingsoon" },
   { title: "Chemistry", img: "account.jpg", link: "/ComingSoon" },
   { title: "Math", img: "/account.jpg", link: "/ComingSoon" }
@@ -44,26 +62,42 @@ export default function Home() {
 
       {/* Navigation Buttons */}
       <div className="top-buttons">
+	 <a href="#computercourse-section" className="nav-link-btn">Computer Courses</a>
         <a href="#learn-section" className="nav-link-btn">Class 6 to Class 10</a>
-        <a href="#practice-section" className="nav-link-btn">Courses and Classes</a>
+    	<a href="#videolecture-section" className="nav-link-btn">Video Lectures</a>
       </div>
 
-      {/* Academy Section */}
-      <h2 id="practice-section" className="section-title">Join any course or class for just ₹500 per month.</h2>
+
+
+{/* Class 6 to 10 Section */}
+      <h2 id="computercourse-section" className="section-title">Join any course or class for just ₹500 per month.</h2>
       <div className="cards-container">
-        {practiceCourses.map((course, i) => (
+        {ComputerClasses.map((course, i) => (
           <div className="card" key={i}>
             <img src={course.img} alt={course.title} className="card-img" />
             <h2>{course.title}</h2>
-            <Link to={course.link} className="learn-btn">Course Details</Link>
+            <Link to={course.link} className="learn-btn">Go for Details</Link>
           </div>
         ))}
       </div>
 
-      {/* Software Solutions Section */}
+
+	{/* Video Lecture Section */}
+      <h2 id="videolecture-section" className="section-title">Join any course or class for just ₹500 per month.</h2>
+      <div className="cards-container">
+        {programmingCourses.map((course, i) => (
+          <div className="card" key={i}>
+            <img src={course.img} alt={course.title} className="card-img" />
+            <h2>{course.title}</h2>
+            <Link to={course.link} className="learn-btn">Video Lectures</Link>
+          </div>
+        ))}
+      </div>
+
+      {/* Class 6 to 10 Section */}
       <h2 id="learn-section" className="section-title">Class 6 To Class 10th </h2>
       <div className="cards-container">
-        {technologySolutions.map((course, i) => (
+        {schoolClasses.map((course, i) => (
           <div className="card" key={i}>
             <img src={course.img} alt={course.title} className="card-img" />
             <h2>{course.title}</h2>
@@ -74,6 +108,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
